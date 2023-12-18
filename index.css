@@ -90,3 +90,33 @@ footer {
     background-color: rgb(189, 197, 197);
     margin-top: 30px;
 }
+
+/* ... (rest of your CSS) ... */
+
+/* Media query for screens narrower than 768px */
+@media (max-width: 768px) {
+    #about-me, #photo {
+        flex-basis: 100%; /* Each takes up the full width */
+        margin-right: 0; /* Reset margin-right */
+    }
+
+    #about-me {
+        padding-right: 0; /* Reset padding-right */
+    }
+
+    main {
+        margin: 5px;
+    }
+
+    header h1 {
+        margin-left: 5px;
+    }
+
+    header nav {
+        margin-right: 5px;
+    }
+
+    body {
+        width: 95%;
+    }
+}
