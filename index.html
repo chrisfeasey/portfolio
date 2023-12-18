@@ -1,32 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Example Portfolio</title>
+        <title>John Doe - Full Stack Developer</title>
+        <link href="./index.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>Heading</h1>
+            <h1>John Doe</h1>
             <nav>
-                <span>Nav</span>
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
             </nav>
         </header>
 
         <main>
-            <section id="About Me">
-                about me
+            <section id="about-me">
+                <h2>About Me</h2>
+                <p>Hi! I'm John Doe, a passionate full stack developer with a love for building scalable web applications and interactive user experiences. With a background in computer science and 5 years of industry experience, I've developed a profound expertise in both frontend and backend technologies.</p>
             </section>
-            <section id="Photo">
-                photo
+            <section id="photo">
+                <!-- Photo Placeholder -->
+                <img src="./images/johndoe.png" alt="John Doe">
             </section>
-            <section id="Projects">
-                projects
+            <section id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li><strong>Project A:</strong> An innovative e-commerce platform built with React and Node.js, featuring real-time analytics.</li>
+                    <li><strong>Project B:</strong> A mobile-responsive social media app developed using Angular and Firebase, with a focus on performance and user experience.</li>
+                    <li><strong>Project C:</strong> A RESTful API for a task management application, designed with Express.js and MongoDB, implementing best practices in security and data handling.</li>
+                </ul>
             </section>
-            <section id="Skills">
-                skills
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Frontend: HTML, CSS, JavaScript, React, Angular</li>
+                    <li>Backend: Node.js, Express.js, Ruby on Rails</li>
+                    <li>Database: MongoDB, MySQL, PostgreSQL</li>
+                    <li>Other: Git, Docker, AWS, Agile Methodologies</li>
+                </ul>
             </section>
-            <footer>
-                footer
-            </footer>
         </main>
+        <footer>
+            <span id="footer-text">Portfolio created by John Doe</span>
+        </footer>
     </body>
 </html>

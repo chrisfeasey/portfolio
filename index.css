@@ -1,0 +1,92 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(189, 197, 197);
+}
+
+header h1 {
+    margin-left: 30px;
+}
+header nav {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Flexbox to align items */
+    justify-content: center; /* Center items horizontally */
+}
+
+nav ul li {
+    margin-right: 20px; /* Adds some space between items */
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none; /* Removes underline from links */
+    color: black; /* Sets text color */
+    /* You can add more styles like font-size, font-weight, etc. */
+}
+
+main {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 15px; /* Adjust padding as needed */
+}
+
+#about-me, #photo {
+    flex: 1 1 calc(50% - 15px); /* Adjust for padding and potential borders */
+    box-sizing: border-box;
+}
+
+
+#projects, #skills {
+    flex-basis: 100%; /* Each takes up the full width */
+}
+
+/* Optional styles for better spacing and presentation */
+section {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#about-me {
+    text-align: left;
+    padding-right: 15px; /* Add space between about-me and photo sections */
+}
+
+#photo {
+    text-align: right;
+}
+
+#photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(189, 197, 197);
+    margin-top: 30px;
+}
